@@ -1,0 +1,138 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+background: #FFF;
+font-family: 'Poppins', sans-serif;
+}
+
+nav {
+display: flex;
+width: 100%; 
+height: 55px;
+justify-content: center;
+align-items: center;
+background-color: #F55A5A;
+color: #FFFFFF;
+gap: 10px;
+}
+
+.cards--main {
+width: 100%; 
+margin: 0 auto; 
+display: flex;
+flex-direction: column;
+align-items: center;
+overflow-y: auto;
+}
+
+.cards--container {
+justify-content: space-between; 
+width: 90%; 
+height:100%;
+margin:%;
+}
+
+.card {
+display: flex;
+flex-direction: row;
+height:22%;
+margin: 2% auto; 
+border-radius: 10px;
+overflow: hidden;
+}
+
+.card--image {
+width: 125px;
+height: 168px;
+flex-shrink: 0;
+object-fit: cover;
+border-radius: 5px;
+margin-right: 22px;
+}
+
+.card--info {
+padding: 0px;
+flex-grow: 1; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.card--location {
+flex-shrink: 0;
+display: inline-flex;
+align-items: center;
+margin-bottom: 8px; 
+color: #555555;
+}
+
+.card--location-icon {
+margin-right: 4px; 
+}
+
+.card--location-name { 
+font-size: 12px;
+margin-right: 10px; 
+color: #2B283A;
+font-weight: 500;
+letter-spacing: 1.741px;
+text-transform: uppercase; 
+}
+
+.card--location-map {
+color: #918E9B;
+text-decoration: underline; 
+padding: 0;
+font-size: 12px;
+font-weight: 500;
+}
+
+.card--title {   
+font-size: 25px;
+font-weight: 800;
+color: #2B283A;
+margin: 8px 0; 
+white-space: normal;
+overflow: hidden;
+text-overflow: ellipsis;
+line-height: 1.4;
+}
+
+.card--date {
+color: #2B283A;
+white-space: normal;
+overflow: hidden;
+text-overflow: ellipsis;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.card--description {
+font-size: 12px;
+font-weight:400;
+font-style: normal;
+color: #4A4A4A; 
+line-height: 1.6;
+white-space: normal;
+overflow: hidden;
+text-overflow: ellipsis;
+line-height: 150%; 
+
+}
+
+.card-divider {
+width: 86%;
+height: 1px;
+background: #F5F5F5;
+margin: 0 auto; 
+}
+
+.hide-divider {
+display: none;
+}
+
